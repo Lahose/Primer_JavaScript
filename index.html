@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="es">
+  <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jose App</title>
+  </head>
+  <body>
+    <section>
+      <h1>Mi curso Javascript</h1>
+      <p>Este es el primer párrafo</p>
+      <p>Este es el segundo párrafo</p>
+      <p>Este es el tercer párrafo</p>
+    <button id = "cambiarColor">Cambiar color a azul</button>
+    </section>
+    
+    <section>
+      <h2>Ejercicio 2: Formulario con Alerta</h2>
+      <form id="miFormulario">
+        <label for="miInput">Ingresa un texto:</label>
+        <input type="text" id="miInput" name="miInput">
+        <input type="button" value="Mostrar alerta" onclick="mostrarAlerta()">
+    </form>
+    </section>
+    
+    <section>
+      <h2>Ejercicio 1: Lista con Elementos</h2>
+      <ul id="miLista">
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    </section>
+
+    <section>
+      <h2>Ejercicio 2: Campo de Texto y Botones</h2>
+      <input type="text" id="miInput" name="miInput">
+      <button id="deshabilitar">Deshabilitar</button>
+      <button id="habilitar">Habilitar</button>
+    </section>
+
+    <section>
+      <h2>Formulario Correo Electrónico</h2>
+      <form id="miFormulario">
+        <label for="miCorreo">Correo electrónico:</label>
+        <input type="email" id="miCorreo" name="miCorreo">
+        <input type="submit" value="Guardar Correo">
+    </form>
+
+    <div id="mostrarCorreo"></div>
+    </section>
+
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
